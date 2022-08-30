@@ -1,10 +1,11 @@
-import { nextUiProvider } from '@nextui-org/react'
+import { NextUIProvider } from '@nextui-org/react'
+import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (
-          <nextUiProvider>
+          <NextUIProvider>
             <Component {...pageProps} />
-          </nextUiProvider>
+          </NextUIProvider>
   )
         }
 
